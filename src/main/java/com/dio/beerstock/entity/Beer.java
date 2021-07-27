@@ -1,5 +1,13 @@
 package com.dio.beerstock.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 import com.dio.beerstock.enums.BeerType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
